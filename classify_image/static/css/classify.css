@@ -66,13 +66,13 @@ body {
 .btn-doggo{
   background-color: #ae0041 !important;
 }
-.bones {
-  float: right;
-  margin-top: 40px;
+#bones {
+  margin-top: 60px;
   padding-top: 45px;
-  transform: rotate(-45deg);
-  height: 90px;
-  margin-right: -30px;
+  float: right;
+  transform: rotate(85deg);
+  height: 115px;
+  margin-right: -40px;
 }
 
 .title {
