@@ -9,10 +9,10 @@ body {
   position: relative;
   margin: .5rem 0 1rem 0;
   background-color: #fff;
-  box-shadow: 5px 5px 5px 3px grey;
+  /* box-shadow: 5px 5px 5px 3px grey; */
   border-radius: 2px;
   padding: 5%;
-
+  z-index: 2;
 }
 .header {
   background-image: url('olympic.JPG');
@@ -25,6 +25,9 @@ body {
   text-align: center;
   font-family: 'Raleway', sans-serif;
 }
+#dog-btn{
+  text-align: center;
+}
 
 .bones {
   float: right;
@@ -32,6 +35,7 @@ body {
   padding-top: 45px;
   rotation-point:50% 50%;
   rotation:180deg;
+  height: 100px;
 }
 
 .title {
@@ -58,7 +62,7 @@ h2 {
 }
 
 .dog {
-  border: 3px solid #D41968;
+  /* border: 3px solid #D41968; */
   border-radius: 100px;
   height: 200px;
   width: 200px;
