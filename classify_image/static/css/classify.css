@@ -68,6 +68,16 @@ h2 {
   width: 200px;
 }
 
+p {
+  text-align: center;
+}
+
+.details {
+  background: gainsboro;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-top: 10px;
+}
 
 .dd-container, .uf-container, .dt-container {
   position: absolute;
