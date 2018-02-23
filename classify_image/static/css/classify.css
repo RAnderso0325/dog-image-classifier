@@ -1,3 +1,38 @@
+@media screen and (max-width: 39.9375em) {
+  .dog{
+    margin-left: 0px;
+  }
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+  .dog{
+    /* margin-left: 0px; */
+  }
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  /* .dog{
+    margin-left: 0px;
+    margin-right: 50px;
+  } */
+}
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+  .dog{
+  margin-left: 10px;
+  }
+}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+  .dog{
+    margin-left: 40px;
+  }
+}
+
 body {
   background-color: white;
   font-family: 'Noto Sans', sans-serif;
@@ -62,10 +97,9 @@ h2 {
 }
 
 .dog {
-  /* border: 3px solid #D41968; */
-  border-radius: 100px;
-  height: 200px;
-  width: 200px;
+  border-radius: 150px;
+  max-height: 250px;
+  text-align: center!important;
 }
 
 p {
